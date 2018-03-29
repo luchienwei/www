@@ -12,18 +12,7 @@
     </style>
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <script>
-        function myFunc() {
-            document.getElementById("hello").contentEditable=true;
-        }
-    </script>
-
-    <script>
-        $( function() {
-            $( "#draggable" ).draggable();
-        } );
-    </script>
-
+    <script src=ahwei-script.js></script>
 </head>
 
 <body>
@@ -34,6 +23,13 @@
         <div id="ebutton">
             <button onclick="myFunc()">ok</button>
         </div>
+    </div>
+    <div id="autocomplete" class="ui-widget">
+        <label for="tags">tags:</label>
+        <input id="tags">
+    </div>
+    <div id="bye">
+        Bye
     </div>
 </body>
 </html>
